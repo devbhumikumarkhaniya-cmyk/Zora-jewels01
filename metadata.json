@@ -1,0 +1,6 @@
+{
+  "name": "Maison Élysée | Fine Jewelry & Luxury",
+  "description": "Premium luxury e-commerce experience featuring handcrafted fine jewelry, rare gemstones, diamonds, and couture accessories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

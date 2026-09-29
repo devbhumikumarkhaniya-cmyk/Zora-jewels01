@@ -1,0 +1,260 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    --font-sans: 'Montserrat', system-ui, -apple-system, sans-serif;
+    --color-black: #0A0A0A;
+    --color-emerald-deep: #0B2A22;
+    --color-emerald-noir: #071914;
+    --color-gold: #C9A96E;
+    --color-gold-light: #E0C794;
+    --color-gold-dark: #9D7B38;
+    --color-ivory: #F5F1EA;
+    --color-ivory-soft: #EFECE6;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0A0A0A;
+    color: #F5F1EA;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif-luxury {
+    font-family: var(--font-serif);
+  }
+
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Category Dual Indicator like Axis Luxury */
+.category-dual-indicator {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+}
+
+.category-line-upper {
+  height: 2px;
+  background: #C9A96E;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.category-line-lower {
+  height: 1px;
+  background: rgba(201, 169, 110, 0.4);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.group:hover .category-line-upper,
+.group:hover .category-line-lower,
+.category-dual-indicator.active .category-line-upper,
+.category-dual-indicator.active .category-line-lower {
+  transform: scaleX(1);
+}
+
+
+/* Luxury marble & spotlight glows */
+.bg-marble-emerald {
+  background-color: #0B2A22;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(201, 169, 110, 0.08) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(7, 25, 20, 0.95) 0px, transparent 60%),
+    radial-gradient(at 50% 50%, rgba(14, 55, 44, 0.6) 0px, transparent 70%);
+}
+
+.bg-noir-hero {
+  background: radial-gradient(circle at 75% 45%, rgba(11, 42, 34, 0.45) 0%, rgba(10, 10, 10, 0.98) 70%),
+              linear-gradient(180deg, #0A0A0A 0%, #06110D 50%, #0A0A0A 100%);
+}
+
+.bg-emerald-vip {
+  background: radial-gradient(ellipse at 50% 30%, rgba(20, 72, 59, 0.7) 0%, rgba(11, 42, 34, 0.95) 50%, #0A0A0A 100%);
+}
+
+/* Subtle luxury gold gradient text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F3E5AB 0%, #C9A96E 50%, #B38E46 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle noise texture */
+.subtle-texture {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A251D;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C9A96E;
+}
+
+/* Infinite Horizontal Marquee Scroll Animations */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll-left {
+  animation: scrollLeft var(--scroll-duration, 32s) linear infinite;
+  will-change: transform;
+}
+
+.animate-scroll-right {
+  animation: scrollRight var(--scroll-duration, 32s) linear infinite;
+  will-change: transform;
+}
+
+.pause-animation {
+  animation-play-state: paused !important;
+}
+
+.marquee-container:hover .animate-scroll-left,
+.marquee-container:hover .animate-scroll-right {
+  animation-play-state: paused;
+}
+
+/* Celestial & Emblem Animations */
+@keyframes spinSlow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes spinReverse {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.4), inset 0 0 10px rgba(212, 175, 55, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 45px rgba(212, 175, 55, 0.85), inset 0 0 25px rgba(212, 175, 55, 0.5);
+  }
+}
+
+@keyframes floatParticle {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-25px) translateX(12px);
+  }
+  100% {
+    transform: translateY(-50px) translateX(-8px);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 28s linear infinite;
+}
+
+.animate-spin-reverse {
+  animation: spinReverse 22s linear infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite alternate;
+}
+
+/* Haute Joaillerie Unique Entrance Animations for Zora Jewels */
+@keyframes pendulumSwing {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes shimmerSweep {
+  0% {
+    transform: translateX(-150%) skewX(-25deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.85;
+  }
+  80% {
+    opacity: 0.85;
+  }
+  100% {
+    transform: translateX(250%) skewX(-25deg);
+    opacity: 0;
+  }
+}
+
+@keyframes twinkleSparkle {
+  0%, 100% {
+    transform: scale(0) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.4) rotate(90deg);
+    opacity: 1;
+    filter: drop-shadow(0 0 10px #FFF3C4);
+  }
+}
+
+@keyframes goldAuraPulse {
+  0% {
+    opacity: 0.35;
+    transform: scale(0.96);
+  }
+  50% {
+    opacity: 0.75;
+    transform: scale(1.04);
+  }
+  100% {
+    opacity: 0.35;
+    transform: scale(0.96);
+  }
+}
+
+.animate-pendulum {
+  animation: pendulumSwing 4.5s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+.animate-shimmer-sweep {
+  animation: shimmerSweep 3.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+.animate-aura-pulse {
+  animation: goldAuraPulse 4s ease-in-out infinite;
+}
+
+
+
