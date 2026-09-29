@@ -47,7 +47,7 @@ export const Footer: React.FC<FooterProps> = ({ onCategoryFilter, onClientServic
               <div className="flex items-center gap-3 mb-4">
                 <div className="relative w-8 h-8 rounded-full p-[1.5px] bg-gradient-to-tr from-[#D4AF37] via-[#F3E5AB] to-[#997929] overflow-hidden shrink-0 shadow-md">
                   <img
-                    src="/src/assets/images/zora_jewels_logo.png"
+                    src="/assets/images/zora_jewels_logo.png"
                     alt="Zora Jewels Logo"
                     className="w-full h-full object-cover object-center"
                   />

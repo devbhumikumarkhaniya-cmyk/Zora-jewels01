@@ -23,7 +23,7 @@ const ROW_1_ITEMS: MarqueeCategoryItem[] = [
     title: 'Colombian Emerald Masterpieces',
     category: 'Fine Jewelry',
     tag: 'SIGNATURE PIECE',
-    imageUrl: '/src/assets/images/cat_fine_jewelry_1790598544566.jpg',
+    imageUrl: '/assets/images/cat_fine_jewelry_1790598544566.jpg',
     subtitle: 'Natural Muzo emeralds set in hand-hammered 18k yellow gold',
   },
   {
@@ -31,7 +31,7 @@ const ROW_1_ITEMS: MarqueeCategoryItem[] = [
     title: 'Triple-Excellent Diamond Solitaires',
     category: 'Diamonds',
     tag: 'MOST POPULAR',
-    imageUrl: '/src/assets/images/cat_diamonds_1790598559704.jpg',
+    imageUrl: '/assets/images/cat_diamonds_1790598559704.jpg',
     subtitle: 'GIA-certified D-color flawless brilliant cut heirlooms',
   },
   {
@@ -39,7 +39,7 @@ const ROW_1_ITEMS: MarqueeCategoryItem[] = [
     title: 'Architectural Evening Leather',
     category: 'Fine Accessories',
     tag: 'TRENDING ATELIER',
-    imageUrl: '/src/assets/images/cat_fine_accessories_1790598572366.jpg',
+    imageUrl: '/assets/images/cat_fine_accessories_1790598572366.jpg',
     subtitle: 'Hand-burnished box calfskin with jewel-grade gold turnlocks',
   },
   {
@@ -47,7 +47,7 @@ const ROW_1_ITEMS: MarqueeCategoryItem[] = [
     title: 'Emerald Rivière Line Bracelet',
     category: 'Fine Jewelry',
     tag: 'LIMITED RUN',
-    imageUrl: '/src/assets/images/prod_emerald_bracelet_1790598630950.jpg',
+    imageUrl: '/assets/images/prod_emerald_bracelet_1790598630950.jpg',
     subtitle: 'Articulated tennis links of step-cut emeralds and round diamonds',
   },
   {
@@ -55,7 +55,7 @@ const ROW_1_ITEMS: MarqueeCategoryItem[] = [
     title: 'Haute Couture Evening Capes',
     category: 'Haute Couture',
     tag: 'ROYAL SUITE',
-    imageUrl: '/src/assets/images/cat_haute_couture_1790598585051.jpg',
+    imageUrl: '/assets/images/cat_haute_couture_1790598585051.jpg',
     subtitle: 'Emerald green silk & cashmere with hand-gilded embroidery',
   },
   {
@@ -63,7 +63,7 @@ const ROW_1_ITEMS: MarqueeCategoryItem[] = [
     title: 'Sovereign Pear Emerald Pendant',
     category: 'Fine Jewelry',
     tag: 'VAULT EXCLUSIVE',
-    imageUrl: '/src/assets/images/prod_emerald_pendant_1790598594423.jpg',
+    imageUrl: '/assets/images/prod_emerald_pendant_1790598594423.jpg',
     subtitle: '12-carat royal drop with pavé diamond halo necklace',
   },
 ];
@@ -75,7 +75,7 @@ const ROW_2_ITEMS: MarqueeCategoryItem[] = [
     title: 'Elysian Diamond Solitaire Ring',
     category: 'Diamonds',
     tag: 'NEW ARRIVAL',
-    imageUrl: '/src/assets/images/prod_solitaire_ring_1790598619066.jpg',
+    imageUrl: '/assets/images/prod_solitaire_ring_1790598619066.jpg',
     subtitle: 'Four-prong platinum cathedral setting with hidden diamond halo',
   },
   {
@@ -83,7 +83,7 @@ const ROW_2_ITEMS: MarqueeCategoryItem[] = [
     title: 'Pavé Cascade Diamond Hoops',
     category: 'Diamonds',
     tag: 'BEST SELLER',
-    imageUrl: '/src/assets/images/prod_diamond_hoops_1790598606951.jpg',
+    imageUrl: '/assets/images/prod_diamond_hoops_1790598606951.jpg',
     subtitle: 'Inside-out brilliant cut micro-pavé hoop earrings in 18k white gold',
   },
   {
@@ -91,7 +91,7 @@ const ROW_2_ITEMS: MarqueeCategoryItem[] = [
     title: 'Vendôme Box Calfskin Clutch',
     category: 'Fine Accessories',
     tag: 'HANDCRAFTED',
-    imageUrl: '/src/assets/images/prod_calfskin_clutch_1790598641645.jpg',
+    imageUrl: '/assets/images/prod_calfskin_clutch_1790598641645.jpg',
     subtitle: 'Sculpted jewel lock in 24k satin gold with lambskin lining',
   },
   {
@@ -99,7 +99,7 @@ const ROW_2_ITEMS: MarqueeCategoryItem[] = [
     title: 'Bespoke Royal Bridal Parure',
     category: 'Bespoke Bridal',
     tag: 'GRAND TIARA',
-    imageUrl: '/src/assets/images/cat_fine_jewelry_1790598544566.jpg',
+    imageUrl: '/assets/images/cat_fine_jewelry_1790598544566.jpg',
     subtitle: 'Heirloom tiara, earrings and collar suite commissioned by royal houses',
   },
   {
@@ -107,7 +107,7 @@ const ROW_2_ITEMS: MarqueeCategoryItem[] = [
     title: 'Atelier Artisan Craftsmanship',
     category: 'Fine Jewelry',
     tag: 'PLACE VENDÔME',
-    imageUrl: '/src/assets/images/artisan_crafting_jewelry_1790598525810.jpg',
+    imageUrl: '/assets/images/artisan_crafting_jewelry_1790598525810.jpg',
     subtitle: 'Centuries-old Parisian goldsmith bench techniques and hand engraving',
   },
   {
@@ -115,7 +115,7 @@ const ROW_2_ITEMS: MarqueeCategoryItem[] = [
     title: 'Velvet Evening Opera Cape',
     category: 'Haute Couture',
     tag: 'LIMITED RUN',
-    imageUrl: '/src/assets/images/cat_haute_couture_1790598585051.jpg',
+    imageUrl: '/assets/images/cat_haute_couture_1790598585051.jpg',
     subtitle: 'Deep emerald velvet lined with French Duchess satin',
   },
 ];

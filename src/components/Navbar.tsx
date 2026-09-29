@@ -106,7 +106,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   {/* Inner logo frame */}
                   <div className="w-full h-full rounded-full overflow-hidden bg-black flex items-center justify-center relative">
                     <img
-                      src="/src/assets/images/zora_jewels_logo.png"
+                      src="/assets/images/zora_jewels_logo.png"
                       alt="Zora Jewels Logo"
                       className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
                     />
@@ -258,7 +258,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 <div className="flex items-center gap-2.5">
                   <div className="relative w-8 h-8 rounded-full p-[1.5px] bg-gradient-to-tr from-[#D4AF37] via-[#F3E5AB] to-[#997929] overflow-hidden">
                     <img
-                      src="/src/assets/images/zora_jewels_logo.png"
+                      src="/assets/images/zora_jewels_logo.png"
                       alt="Zora Jewels Logo"
                       className="w-full h-full object-cover object-center"
                     />

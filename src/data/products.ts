@@ -24,7 +24,7 @@ export const CATEGORIES: CollectionCategory[] = [
     id: 'fine-jewelry',
     title: 'Fine Jewelry',
     subtitle: 'Colombian Emeralds, Ceylon Sapphires & Royal Heirlooms',
-    image: '/src/assets/images/cat_fine_jewelry_1790598544566.jpg',
+    image: '/assets/images/cat_fine_jewelry_1790598544566.jpg',
     itemCount: 42,
     href: '#catalog',
   },
@@ -32,7 +32,7 @@ export const CATEGORIES: CollectionCategory[] = [
     id: 'diamonds',
     title: 'Diamonds',
     subtitle: 'Flawless Cut Solitaires, Rivière Necklaces & Pavé Bands',
-    image: '/src/assets/images/cat_diamonds_1790598559704.jpg',
+    image: '/assets/images/cat_diamonds_1790598559704.jpg',
     itemCount: 38,
     href: '#catalog',
   },
@@ -40,7 +40,7 @@ export const CATEGORIES: CollectionCategory[] = [
     id: 'fine-accessories',
     title: 'Fine Accessories',
     subtitle: 'French Box Calfskin & 24k Gold Chain Hardware',
-    image: '/src/assets/images/cat_fine_accessories_1790598572366.jpg',
+    image: '/assets/images/cat_fine_accessories_1790598572366.jpg',
     itemCount: 24,
     href: '#catalog',
   },
@@ -48,7 +48,7 @@ export const CATEGORIES: CollectionCategory[] = [
     id: 'haute-couture',
     title: 'Haute Couture',
     subtitle: 'Hand-Tailored Silk Evening Capes & Embroidered Ensembles',
-    image: '/src/assets/images/cat_haute_couture_1790598585051.jpg',
+    image: '/assets/images/cat_haute_couture_1790598585051.jpg',
     itemCount: 19,
     href: '#catalog',
   },
@@ -60,7 +60,7 @@ export const SPEED_CATEGORIES: SpeedCategoryItem[] = [
     title: 'Colombian Emerald Masterpieces',
     category: 'Fine Jewelry',
     tag: 'SIGNATURE PIECE',
-    imageUrl: '/src/assets/images/cat_fine_jewelry_1790598544566.jpg',
+    imageUrl: '/assets/images/cat_fine_jewelry_1790598544566.jpg',
     subtitle: 'Natural Muzo emeralds set in hand-hammered 18k yellow gold',
   },
   {
@@ -68,7 +68,7 @@ export const SPEED_CATEGORIES: SpeedCategoryItem[] = [
     title: 'Triple-Excellent Diamond Solitaires',
     category: 'Diamonds',
     tag: 'MOST POPULAR',
-    imageUrl: '/src/assets/images/cat_diamonds_1790598559704.jpg',
+    imageUrl: '/assets/images/cat_diamonds_1790598559704.jpg',
     subtitle: 'GIA-certified D-color flawless brilliant cut heirlooms',
   },
   {
@@ -76,7 +76,7 @@ export const SPEED_CATEGORIES: SpeedCategoryItem[] = [
     title: 'Architectural Evening Leather',
     category: 'Fine Accessories',
     tag: 'TRENDING ATELIER',
-    imageUrl: '/src/assets/images/cat_fine_accessories_1790598572366.jpg',
+    imageUrl: '/assets/images/cat_fine_accessories_1790598572366.jpg',
     subtitle: 'Hand-burnished box calfskin with jewel-grade gold turnlocks',
   },
   {
@@ -84,7 +84,7 @@ export const SPEED_CATEGORIES: SpeedCategoryItem[] = [
     title: 'Emerald Rivière Line Bracelet',
     category: 'Fine Jewelry',
     tag: 'LIMITED RUN',
-    imageUrl: '/src/assets/images/prod_emerald_bracelet_1790598630950.jpg',
+    imageUrl: '/assets/images/prod_emerald_bracelet_1790598630950.jpg',
     subtitle: 'Articulated tennis links of step-cut emeralds and round diamonds',
   },
   {
@@ -92,7 +92,7 @@ export const SPEED_CATEGORIES: SpeedCategoryItem[] = [
     title: 'Haute Couture Evening Capes',
     category: 'Haute Couture',
     tag: 'ROYAL SUITE',
-    imageUrl: '/src/assets/images/cat_haute_couture_1790598585051.jpg',
+    imageUrl: '/assets/images/cat_haute_couture_1790598585051.jpg',
     subtitle: 'Emerald green silk & cashmere with hand-gilded embroidery',
   },
 ];
@@ -104,7 +104,7 @@ export const ALL_PRODUCTS: Product[] = [
     category: 'Fine Jewelry',
     price: 12800,
     originalPrice: 14200,
-    image: '/src/assets/images/prod_emerald_pendant_1790598594423.jpg',
+    image: '/assets/images/prod_emerald_pendant_1790598594423.jpg',
     tag: 'SIGNATURE',
     description:
       'A luminous 4.2-carat untreated Colombian emerald centerpiece enveloped in a radiant double halo of brilliant round-cut pave diamonds, suspended from a delicate 18-karat yellow gold anchor link chain.',
@@ -122,7 +122,7 @@ export const ALL_PRODUCTS: Product[] = [
     name: 'Lumière Diamond Huggie Hoops',
     category: 'Diamonds',
     price: 6750,
-    image: '/src/assets/images/prod_diamond_hoops_1790598606951.jpg',
+    image: '/assets/images/prod_diamond_hoops_1790598606951.jpg',
     tag: 'CLASSIC',
     description:
       'Sculpted in 18-karat white gold with an inside-out shared-prong diamond arrangement designed to capture natural light from every angle with supreme brilliance.',
@@ -141,7 +141,7 @@ export const ALL_PRODUCTS: Product[] = [
     category: 'Diamonds',
     price: 9950,
     originalPrice: 11000,
-    image: '/src/assets/images/prod_solitaire_ring_1790598619066.jpg',
+    image: '/assets/images/prod_solitaire_ring_1790598619066.jpg',
     tag: 'MOST POPULAR',
     description:
       'An iconic celebration of eternal romance. Featuring an exceptional round brilliant diamond secured in a cathedral crown, hand-engraved with subtle botanical scrollwork.',
@@ -159,7 +159,7 @@ export const ALL_PRODUCTS: Product[] = [
     name: 'Emerald & Diamond Line Bracelet',
     category: 'Fine Jewelry',
     price: 14600,
-    image: '/src/assets/images/prod_emerald_bracelet_1790598630950.jpg',
+    image: '/assets/images/prod_emerald_bracelet_1790598630950.jpg',
     tag: 'HIGH JEWELRY',
     description:
       'An architectural rivière bracelet alternating vivid deep-green step-cut emeralds and round brilliant diamonds. Masterfully articulated links ensure seamless fluid drape on the wrist.',
@@ -177,7 +177,7 @@ export const ALL_PRODUCTS: Product[] = [
     name: 'Aurelia Box Calfskin Evening Clutch',
     category: 'Fine Accessories',
     price: 4200,
-    image: '/src/assets/images/prod_calfskin_clutch_1790598641645.jpg',
+    image: '/assets/images/prod_calfskin_clutch_1790598641645.jpg',
     tag: 'ATELIER LEATHER',
     description:
       'Crafted from silky full-grain box calfskin leather, structured with sharp architectural bevels and accented with a custom champagne gold turnlock and jewel-grade link chain.',
@@ -194,7 +194,7 @@ export const ALL_PRODUCTS: Product[] = [
     name: 'Imperial Halo Emerald Ring',
     category: 'Fine Jewelry',
     price: 18500,
-    image: '/src/assets/images/cat_fine_jewelry_1790598544566.jpg',
+    image: '/assets/images/cat_fine_jewelry_1790598544566.jpg',
     tag: 'MASTERPIECE',
     description:
       'A cushion-cut 5.5-carat Colombian emerald bordered by marquise and pear-cut diamonds creating a botanical garland of divine light and sovereign majesty.',
@@ -212,7 +212,7 @@ export const ALL_PRODUCTS: Product[] = [
     name: 'Classic Rivière Diamond Tennis Bracelet',
     category: 'Diamonds',
     price: 15200,
-    image: '/src/assets/images/cat_diamonds_1790598559704.jpg',
+    image: '/assets/images/cat_diamonds_1790598559704.jpg',
     tag: 'TIMELESS',
     description:
       'Fifty-four uniform round brilliant diamonds set in minimal four-prong platinum baskets, engineered for supreme fluidity and maximum scintillation.',
@@ -230,7 +230,7 @@ export const ALL_PRODUCTS: Product[] = [
     name: 'Palais Silk Velvet Evening Cape',
     category: 'Haute Couture',
     price: 7800,
-    image: '/src/assets/images/cat_haute_couture_1790598585051.jpg',
+    image: '/assets/images/cat_haute_couture_1790598585051.jpg',
     tag: 'COUTURE',
     description:
       'Deep emerald green mulberry silk velvet cape lined in champagne duchess satin, finished with hand-embroidered gold bullion thread along the Mandarin collar.',
@@ -248,7 +248,7 @@ export const ALL_PRODUCTS: Product[] = [
     category: 'Bespoke Bridal',
     price: 38500,
     originalPrice: 42000,
-    image: '/src/assets/images/cat_fine_jewelry_1790598544566.jpg',
+    image: '/assets/images/cat_fine_jewelry_1790598544566.jpg',
     tag: 'BRIDAL SUITE',
     description:
       'A harmonious high jewelry bridal ensemble including a diamond & emerald cascade collar, matching chandelier earrings, and a ceremonial bridal hair ornament.',
@@ -279,7 +279,7 @@ export const PACKAGE_SUITES: PackageSuite[] = [
       'Private 3-Hour Salon Dressing with Senior Stylist',
       'Insured Archival Vault Storage for 1 Year',
     ],
-    image: '/src/assets/images/cat_fine_jewelry_1790598544566.jpg',
+    image: '/assets/images/cat_fine_jewelry_1790598544566.jpg',
     tag: 'MOST EXCLUSIVE',
   },
   {
@@ -296,7 +296,7 @@ export const PACKAGE_SUITES: PackageSuite[] = [
       'Complimentary Custom Hand Engraving',
       'Certificate of Provenance & Insurance Valuation',
     ],
-    image: '/src/assets/images/cat_diamonds_1790598559704.jpg',
+    image: '/assets/images/cat_diamonds_1790598559704.jpg',
     tag: 'CONNOISSEUR',
   },
   {
@@ -313,7 +313,7 @@ export const PACKAGE_SUITES: PackageSuite[] = [
       'Monogrammed Dust Sleeves & Wooden Display Box',
       'Atelier Touch-Up & Leather Care Service',
     ],
-    image: '/src/assets/images/cat_fine_accessories_1790598572366.jpg',
+    image: '/assets/images/cat_fine_accessories_1790598572366.jpg',
     tag: 'CURATED DUO',
   },
 ];
@@ -380,4 +380,4 @@ export const PRESS_LOGOS = [
   { name: 'Forbes', tagline: 'Pioneering Sustainable High Luxury' },
 ];
 
-export const CRAFTSMANSHIP_IMAGE = '/src/assets/images/artisan_crafting_jewelry_1790598525810.jpg';
+export const CRAFTSMANSHIP_IMAGE = '/assets/images/artisan_crafting_jewelry_1790598525810.jpg';
