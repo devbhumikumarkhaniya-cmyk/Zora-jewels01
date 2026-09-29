@@ -217,6 +217,8 @@ export const CatalogServices: React.FC<CatalogServicesProps> = ({
                     <img
                       src={product.image}
                       alt={product.name}
+                      loading="lazy"
+                      decoding="async"
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-contain transform group-hover:scale-108 transition-transform duration-500"
                     />

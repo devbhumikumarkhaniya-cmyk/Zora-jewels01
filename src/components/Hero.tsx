@@ -12,13 +12,17 @@ export const Hero: React.FC<HeroProps> = ({ onShopClick, onLookbookClick }) => {
       {/* Background Animation Video (Looping, Muted, Brightened & Clearly Visible) */}
       <div className="absolute inset-0 w-full h-full overflow-hidden pointer-events-none select-none z-0">
         <video
-          src="https://www.image2url.com/r2/default/videos/1790612508670-3b3253b1-4d18-43c1-a661-c90185e6291d.mp4"
           autoPlay
           loop
           muted
           playsInline
+          preload="metadata"
+          poster="/assets/videos/hero_poster.jpg"
           className="w-full h-full object-cover object-center filter brightness-[1.25] contrast-[1.06]"
-        />
+        >
+          <source src="/assets/videos/hero_bg.mp4" type="video/mp4" />
+          <source src="https://www.image2url.com/r2/default/videos/1790612508670-3b3253b1-4d18-43c1-a661-c90185e6291d.mp4" type="video/mp4" />
+        </video>
         {/* Soft gradient overlays preserving crisp video visibility while ensuring text contrast */}
         <div 
           aria-hidden="true"

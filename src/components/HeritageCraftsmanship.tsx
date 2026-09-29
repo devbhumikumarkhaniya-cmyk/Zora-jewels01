@@ -16,13 +16,17 @@ export const HeritageCraftsmanship: React.FC<HeritageCraftsmanshipProps> = ({
       {/* Background Video (Looping, Muted, No Zoom) */}
       <div className="absolute inset-0 w-full h-full overflow-hidden pointer-events-none select-none z-0">
         <video
-          src="https://www.image2url.com/r2/default/videos/1790613679841-e3ee08fb-2e24-4a24-8201-a2205e0d07f6.mp4"
           autoPlay
           loop
           muted
           playsInline
+          preload="metadata"
+          poster="/assets/videos/craft_poster.jpg"
           className="w-full h-full object-cover object-center"
-        />
+        >
+          <source src="/assets/videos/craft_bg.mp4" type="video/mp4" />
+          <source src="https://www.image2url.com/r2/default/videos/1790613679841-e3ee08fb-2e24-4a24-8201-a2205e0d07f6.mp4" type="video/mp4" />
+        </video>
         {/* Very soft gradient at the very bottom so video stays ultra clear while text remains crisp */}
         <div 
           aria-hidden="true"

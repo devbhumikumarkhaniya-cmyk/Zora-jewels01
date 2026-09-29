@@ -96,6 +96,8 @@ export const Collections: React.FC<CollectionsProps> = ({ onSelectCategory }) =>
                 src={cat.image}
                 alt={cat.title}
                 referrerPolicy="no-referrer"
+                loading="lazy"
+                decoding="async"
                 className="absolute inset-0 w-full h-full object-cover object-center transform transition-transform duration-700 ease-out group-hover:scale-110"
                 onError={(e) => {
                   const target = e.target as HTMLElement;

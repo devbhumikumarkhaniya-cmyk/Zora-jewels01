@@ -131,6 +131,8 @@ export const SignaturePieces: React.FC<SignaturePiecesProps> = ({
                   <img
                     src={product.image}
                     alt={product.name}
+                    loading="lazy"
+                    decoding="async"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-contain p-2 transform transition-transform duration-500 ease-out group-hover:scale-108"
                   />

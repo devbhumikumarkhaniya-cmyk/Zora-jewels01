@@ -137,6 +137,9 @@ export const IntroSplash: React.FC<IntroSplashProps> = ({ onComplete }) => {
             <img
               src="/assets/images/zora_jewels_logo.png"
               alt="Zora Jewels Official Imperial Haute Joaillerie Logo"
+              fetchPriority="high"
+              loading="eager"
+              decoding="async"
               className="w-full h-full object-contain filter drop-shadow-[0_12px_36px_rgba(212,175,55,0.45)] select-none transition-transform duration-700"
             />
           </div>

@@ -55,6 +55,8 @@ export const ProductQuickView: React.FC<ProductQuickViewProps> = ({
               <img
                 src={product.image}
                 alt={product.name}
+                loading="lazy"
+                decoding="async"
                 referrerPolicy="no-referrer"
                 className="max-h-[340px] w-full object-contain filter drop-shadow-md"
               />
