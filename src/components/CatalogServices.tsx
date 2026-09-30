@@ -62,7 +62,7 @@ export const CatalogServices: React.FC<CatalogServicesProps> = ({
 
   const handleWhatsAppEnquiry = (product: Product) => {
     const text = encodeURIComponent(
-      `Hello Zora Jewels! I would like to inquire about the ${product.name} (Price: $${product.price.toLocaleString()}). Is this piece currently available for private viewing?`
+      `Hello J.P Jewellers! I would like to inquire about the ${product.name} (Price: $${product.price.toLocaleString()}). Is this piece currently available at your Rajkot showroom?`
     );
     window.open(`https://wa.me/${BUSINESS_INFO.whatsappRaw}?text=${text}`, '_blank');
   };

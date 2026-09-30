@@ -132,11 +132,11 @@ export const IntroSplash: React.FC<IntroSplashProps> = ({ onComplete }) => {
             <div className="w-1/2 h-full bg-gradient-to-r from-transparent via-white/25 to-transparent animate-shimmer-sweep" />
           </div>
 
-          {/* The High-Resolution User-Requested ZORA JEWELS Logo */}
+          {/* The High-Resolution User-Requested J.P JEWELLERS Logo */}
           <div className="relative z-10 w-full h-full flex items-center justify-center p-2">
             <img
-              src="/assets/images/zora_jewels_logo.png"
-              alt="Zora Jewels Official Imperial Haute Joaillerie Logo"
+              src="/assets/images/jp_jewellers_logo.png"
+              alt="J.P Jewellers Official Imperial Fine Jewelry Logo"
               fetchPriority="high"
               loading="eager"
               decoding="async"
@@ -156,7 +156,7 @@ export const IntroSplash: React.FC<IntroSplashProps> = ({ onComplete }) => {
             <Sparkles className="w-6 h-6 text-[#FFFBE6] drop-shadow-[0_0_12px_#FFF3C4]" />
           </div>
 
-          {/* Glint 2: On the Hanging Pear-Cut Diamond Teardrop Pendant */}
+          {/* Glint 2: On the Center Monogram Pendant */}
           <div
             aria-hidden="true"
             className={`absolute top-[42%] right-[38%] z-30 pointer-events-none transition-opacity duration-500 ${
@@ -167,7 +167,7 @@ export const IntroSplash: React.FC<IntroSplashProps> = ({ onComplete }) => {
             <Sparkles className="w-7 h-7 text-[#FFFFFF] drop-shadow-[0_0_16px_#FFEAA7]" />
           </div>
 
-          {/* Glint 3: Inside the star of letter 'O' in ZORA */}
+          {/* Glint 3: Inside the Star Emblem */}
           <div
             aria-hidden="true"
             className={`absolute bottom-[28%] left-[42%] z-30 pointer-events-none transition-opacity duration-500 ${
@@ -188,13 +188,13 @@ export const IntroSplash: React.FC<IntroSplashProps> = ({ onComplete }) => {
           <div className="flex items-center justify-center gap-3">
             <span className="w-10 sm:w-16 h-[1px] bg-gradient-to-r from-transparent to-[#C9A96E]/70" />
             <span className="text-[11px] sm:text-xs font-semibold tracking-[0.38em] uppercase text-[#E5C07B]">
-              Place Vendôme · Paris
+              Palace Road · Rajkot
             </span>
             <span className="w-10 sm:w-16 h-[1px] bg-gradient-to-l from-transparent to-[#C9A96E]/70" />
           </div>
 
           <p className="text-xs text-[#F5F1EA]/65 font-light tracking-wide max-w-xs mx-auto">
-            Imperial Haute Joaillerie & Bespoke Diamond Creations
+            Hallmark Gold, Certified Diamonds & Heritage Bridal Heirlooms
           </p>
         </div>
 

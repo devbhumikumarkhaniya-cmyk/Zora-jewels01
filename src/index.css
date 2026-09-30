@@ -190,7 +190,7 @@
   animation: pulseGlow 3s ease-in-out infinite alternate;
 }
 
-/* Haute Joaillerie Unique Entrance Animations for Zora Jewels */
+/* Haute Joaillerie Unique Entrance Animations for J.P Jewellers */
 @keyframes pendulumSwing {
   0% { transform: rotate(0deg); }
   25% { transform: rotate(5deg); }

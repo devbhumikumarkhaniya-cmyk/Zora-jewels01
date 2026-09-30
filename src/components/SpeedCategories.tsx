@@ -106,9 +106,9 @@ const ROW_2_ITEMS: MarqueeCategoryItem[] = [
     id: 'row2-5',
     title: 'Atelier Artisan Craftsmanship',
     category: 'Fine Jewelry',
-    tag: 'PLACE VENDÔME',
+    tag: 'RAJKOT ATELIER',
     imageUrl: '/assets/images/artisan_crafting_jewelry_1790598525810.jpg',
-    subtitle: 'Centuries-old Parisian goldsmith bench techniques and hand engraving',
+    subtitle: 'Centuries-old royal goldsmith bench techniques and hand engraving',
   },
   {
     id: 'row2-6',

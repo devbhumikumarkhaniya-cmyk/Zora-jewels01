@@ -104,7 +104,7 @@ export const AdminLogModal: React.FC<AdminLogModalProps> = ({ isOpen, onClose, o
             <div className="flex items-center gap-3">
               <span className="w-2.5 h-2.5 rounded-full bg-[#C9A96E]" />
               <h3 className="font-serif text-xl sm:text-2xl font-light text-[#F5F1EA]">
-                Zora Jewels Salon Concierge Admin Log
+                J.P Jewellers Salon Concierge Admin Log
               </h3>
               <span className="text-[10px] text-[#0A0A0A] bg-[#C9A96E] font-bold px-2 py-0.5 rounded-xs">
                 {appointments.length} Total Bookings

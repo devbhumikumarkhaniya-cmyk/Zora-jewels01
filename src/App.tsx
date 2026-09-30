@@ -185,7 +185,7 @@ export default function App() {
         onReplayIntro={() => setShowIntro(true)}
       />
 
-      {/* 2. NAVIGATION with Dual-Indicator, Animated Zora Jewels Logo, Book Salon, Admin Log */}
+      {/* 2. NAVIGATION with Dual-Indicator, Animated J.P Jewellers Logo, Book Salon, Admin Log */}
       <Navbar
         activeTab={activeTab}
         setActiveTab={setActiveTab}

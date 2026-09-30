@@ -45,11 +45,11 @@ export const HeritageCraftsmanship: React.FC<HeritageCraftsmanshipProps> = ({
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#0A0A0A]/60 backdrop-blur-md border border-[#C9A96E]/30 text-[#C9A96E] text-[10px] tracking-[0.2em] uppercase font-light"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-[#C9A96E] animate-pulse" />
-            <span>Atelier Place Vendôme · Savoir-Faire</span>
+            <span>Palace Road, Rajkot · Savoir-Faire</span>
           </motion.div>
 
           <span className="hidden sm:inline-block text-[10px] text-[#F5F1EA]/60 uppercase tracking-widest font-mono">
-            Paris, Est. 1932
+            Rajkot, Gujarat
           </span>
         </div>
       </div>
@@ -91,7 +91,7 @@ export const HeritageCraftsmanship: React.FC<HeritageCraftsmanshipProps> = ({
             </h4>
 
             <p className="text-[10.5px] text-[#F5F1EA]/75 font-light leading-snug line-clamp-2">
-              Parisian master goldsmiths crafting with Fairmined 18k gold and GIA certified conflict-free diamonds.
+              Master goldsmiths crafting with certified Hallmark gold and IGI/GIA certified conflict-free diamonds.
             </p>
           </motion.div>
 

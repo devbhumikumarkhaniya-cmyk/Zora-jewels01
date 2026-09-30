@@ -55,10 +55,10 @@ export const VipClub: React.FC<VipClubProps> = ({ onSubscribeSuccess }) => {
               <Check className="w-5 h-5" />
             </div>
             <h3 className="font-serif text-lg text-[#F5F1EA] mb-1">
-              Bienvenue to Zora Jewels
+              Welcome to J.P Jewellers Club
             </h3>
             <p className="text-xs text-[#F5F1EA]/70 font-light">
-              A private invitation and archival lookbook have been dispatched to{' '}
+              A private invitation and seasonal catalogue have been dispatched to{' '}
               <span className="text-[#C9A96E] font-medium">{email}</span>.
             </p>
           </div>
@@ -98,7 +98,7 @@ export const VipClub: React.FC<VipClubProps> = ({ onSubscribeSuccess }) => {
               <a href="#privacy" className="text-[#C9A96E]/80 underline hover:text-[#C9A96E]">
                 Privacy Policy
               </a>{' '}
-              and consent to receive updates from Zora Jewels.
+              and consent to receive updates from J.P Jewellers.
             </p>
           </form>
         )}

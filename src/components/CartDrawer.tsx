@@ -82,10 +82,10 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                   Order Confirmed
                 </h3>
                 <p className="text-xs text-[#F5F1EA]/70 font-light leading-relaxed max-w-xs mx-auto">
-                  Thank you for entrusting Zora Jewels. Your private concierge is preparing your insured express dispatch.
+                  Thank you for entrusting J.P Jewellers. Your private concierge is preparing your insured express dispatch.
                 </p>
                 <div className="text-[11px] text-[#C9A96E] tracking-widest uppercase pt-2">
-                  Order #ZORA-89421
+                  Order #JPJ-89421
                 </div>
                 <button
                   type="button"

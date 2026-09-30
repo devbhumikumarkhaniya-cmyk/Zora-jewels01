@@ -84,7 +84,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               </button>
             </div>
 
-            {/* Brand Logo Lockup with Animated Rotating Gold Halo & Zora Jewels Medallion */}
+            {/* Brand Logo Lockup with Animated Rotating Gold Halo & J.P Jewellers Medallion */}
             <div className="flex items-center">
               <a
                 href="#home"
@@ -93,7 +93,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   handleNavClick('home', '#home');
                   if (onReplayIntro) onReplayIntro();
                 }}
-                title="Zora Jewels - Click to replay intro"
+                title="J.P Jewellers - Click to replay intro"
                 className="group flex items-center gap-3 select-none focus:outline-none"
               >
                 {/* Circular Emblem with Animated Rotating Gold Halo */}
@@ -106,19 +106,19 @@ export const Navbar: React.FC<NavbarProps> = ({
                   {/* Inner logo frame */}
                   <div className="w-full h-full rounded-full overflow-hidden bg-black flex items-center justify-center relative">
                     <img
-                      src="/assets/images/zora_jewels_logo.png"
-                      alt="Zora Jewels Logo"
+                      src="/assets/images/jp_jewellers_logo.png"
+                      alt="J.P Jewellers Logo"
                       className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
                     />
                   </div>
                 </div>
 
                 <div className="flex flex-col text-left">
-                  <span className="font-cinzel tracking-[0.2em] text-base sm:text-lg font-bold leading-tight uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#F9E8B2] via-[#E5C07B] to-[#D4AF37] group-hover:from-white group-hover:to-[#E5C07B] transition-all duration-300">
-                    ZORA <span className="font-light tracking-[0.22em] text-white">JEWELS</span>
+                  <span className="font-cinzel tracking-[0.18em] text-base sm:text-lg font-bold leading-tight uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#F9E8B2] via-[#E5C07B] to-[#D4AF37] group-hover:from-white group-hover:to-[#E5C07B] transition-all duration-300">
+                    J.P <span className="font-light tracking-[0.2em] text-white">JEWELLERS</span>
                   </span>
-                  <span className="text-[8.5px] uppercase tracking-[0.28em] font-semibold leading-none mt-1 text-[#C9A96E]">
-                    Haute Joaillerie & Couture
+                  <span className="text-[8.5px] uppercase tracking-[0.26em] font-semibold leading-none mt-1 text-[#C9A96E]">
+                    Rajkot · Fine Gold & Diamonds
                   </span>
                 </div>
               </a>
@@ -258,13 +258,13 @@ export const Navbar: React.FC<NavbarProps> = ({
                 <div className="flex items-center gap-2.5">
                   <div className="relative w-8 h-8 rounded-full p-[1.5px] bg-gradient-to-tr from-[#D4AF37] via-[#F3E5AB] to-[#997929] overflow-hidden">
                     <img
-                      src="/assets/images/zora_jewels_logo.png"
-                      alt="Zora Jewels Logo"
+                      src="/assets/images/jp_jewellers_logo.png"
+                      alt="J.P Jewellers Logo"
                       className="w-full h-full object-cover object-center"
                     />
                   </div>
                   <span className="font-cinzel tracking-widest text-sm uppercase text-[#F5F1EA] font-bold">
-                    Zora Jewels
+                    J.P Jewellers
                   </span>
                 </div>
                 <button
@@ -325,7 +325,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <div className="text-[#C9A96E] font-medium uppercase tracking-wider">
                 Private Concierge
               </div>
-              <p>Place Vendôme, Paris · +1 (833) 555-ÉLYSÉE</p>
+              <p>Palace Rd, Rajkot · +91 93285 91000</p>
             </div>
           </div>
         </div>

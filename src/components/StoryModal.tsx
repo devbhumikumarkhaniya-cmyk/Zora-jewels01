@@ -42,7 +42,7 @@ export const StoryModal: React.FC<StoryModalProps> = ({ isOpen, onClose }) => {
 
           <div className="space-y-6 text-sm text-[#F5F1EA]/80 font-light leading-relaxed">
             <p>
-              Founded in the historic jewelry quarters of Place Vendôme, Zora Jewels was born from an unyielding commitment to exceptional colored gemstones and classical French goldsmithing.
+              Located opposite the historic Ashapura Temple on Palace Road, J.P Jewellers was born from an unyielding commitment to hallmark gold purity, certified diamonds, and legendary Gujarati goldsmithing traditions.
             </p>
             <p>
               Our master lapidaries spend months assessing a single rough emerald or diamond crystal before the initial cut, determining the precise angles that will unlock its natural inner fire.

@@ -127,10 +127,10 @@ export const AccountModal: React.FC<AccountModalProps> = ({ isOpen, onClose }) =
                   onChange={(e) => setCity(e.target.value)}
                   className="w-full bg-[#121212] border border-[#C9A96E]/30 px-3 py-2.5 text-[#F5F1EA] focus:outline-none focus:border-[#C9A96E]"
                 >
-                  <option value="Paris">Place Vendôme, Paris</option>
-                  <option value="New York">Madison Avenue, New York</option>
-                  <option value="Geneva">Rue du Rhône, Geneva</option>
-                  <option value="Virtual">Private Virtual Viewing (Global)</option>
+                  <option value="Rajkot">Ashapura Temple, Palace Rd, Rajkot</option>
+                  <option value="Boutique">Palace Road Boutique, Rajkot</option>
+                  <option value="PrahladPlot">Prahlad Plot Suite, Rajkot</option>
+                  <option value="Virtual">Private Virtual Video Consultation</option>
                 </select>
               </div>
 

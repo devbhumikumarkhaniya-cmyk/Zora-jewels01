@@ -22,7 +22,7 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({
   const [date, setDate] = useState('');
   const [time, setTime] = useState('14:00');
   const [service, setService] = useState(initialService);
-  const [salonLocation, setSalonLocation] = useState('Place Vendôme, Paris');
+  const [salonLocation, setSalonLocation] = useState('Rajkot Flagship (Palace Rd)');
   const [notes, setNotes] = useState('');
   const [isSuccess, setIsSuccess] = useState(false);
   const [confirmedAppt, setConfirmedAppt] = useState<SalonAppointment | null>(null);
@@ -63,7 +63,7 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({
   const handleWhatsAppConfirm = () => {
     if (!confirmedAppt) return;
     const text = encodeURIComponent(
-      `Hello Zora Jewels! I have reserved a salon viewing.\n` +
+      `Hello J.P Jewellers! I have reserved a salon viewing.\n` +
       `Appointment ID: ${confirmedAppt.id}\n` +
       `Name: ${confirmedAppt.name}\n` +
       `Salon: ${confirmedAppt.salonLocation}\n` +
@@ -166,7 +166,7 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({
                   <span className="w-8 h-[1px] bg-[#C9A96E]/40" />
                 </div>
                 <p className="text-xs text-[#F5F1EA]/70 font-light">
-                  Reserve private viewing salons at Place Vendôme, Madison Avenue, or confidential virtual salon.
+                  Reserve private viewing at Palace Road Rajkot Flagship, or request private virtual video consultation.
                 </p>
               </div>
 
@@ -182,7 +182,7 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({
                       required
                       value={name}
                       onChange={(e) => setName(e.target.value)}
-                      placeholder="e.g. Lady Genevieve Sterling"
+                      placeholder="e.g. Ramesh Patel"
                       className="w-full bg-[#121212] border border-[#C9A96E]/30 px-3 py-2 text-[#F5F1EA] focus:outline-none focus:border-[#C9A96E]"
                     />
                   </div>
@@ -196,7 +196,7 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({
                       required
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
-                      placeholder="+1 (555) 019-2834"
+                      placeholder="+91 93285 91000"
                       className="w-full bg-[#121212] border border-[#C9A96E]/30 px-3 py-2 text-[#F5F1EA] focus:outline-none focus:border-[#C9A96E]"
                     />
                   </div>
@@ -246,10 +246,10 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({
                     onChange={(e) => setSalonLocation(e.target.value)}
                     className="w-full bg-[#121212] border border-[#C9A96E]/30 px-3 py-2 text-[#F5F1EA] focus:outline-none"
                   >
-                    <option value="Place Vendôme, Paris">Place Vendôme, Paris (Flagship)</option>
-                    <option value="Madison Avenue, New York">Madison Avenue, New York (Salon)</option>
-                    <option value="Rue du Rhône, Geneva">Rue du Rhône, Geneva (Private Suite)</option>
-                    <option value="Private Virtual Viewing (Global)">Private Virtual HD Viewing (Global)</option>
+                    <option value="Rajkot Flagship (Palace Rd)">Rajkot Flagship (Palace Rd, opp. Ashapura Temple)</option>
+                    <option value="Palace Road Boutique, Rajkot">Palace Road Boutique, Rajkot</option>
+                    <option value="Prahlad Plot Private Suite, Rajkot">Prahlad Plot Private Suite, Rajkot</option>
+                    <option value="Private Virtual Viewing (Video Call)">Private Virtual Viewing & Consultation</option>
                   </select>
                 </div>
 

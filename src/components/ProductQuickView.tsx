@@ -72,7 +72,7 @@ export const ProductQuickView: React.FC<ProductQuickViewProps> = ({
             <div className="p-6 md:p-8 flex flex-col justify-between text-[#F5F1EA]">
               <div>
                 <div className="text-[10px] font-semibold tracking-[0.25em] uppercase text-[#C9A96E] mb-1">
-                  Zora Jewels · High Jewelry
+                  J.P Jewellers · Rajkot Atelier
                 </div>
 
                 <h3 className="font-serif text-2xl font-light text-[#F5F1EA] tracking-wide mb-2">

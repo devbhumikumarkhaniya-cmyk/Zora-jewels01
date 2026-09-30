@@ -1,21 +1,22 @@
 import { Product, CollectionCategory, SpeedCategoryItem, ClientReview, PackageSuite } from '../types';
 
 export const BUSINESS_INFO = {
-  name: 'Zora Jewels',
-  tagline: 'Imperial Haute Joaillerie & Couture',
-  phone: '+1 (833) 555-ÉLYSÉE',
-  phoneRaw: '18335553597',
-  whatsappNumber: '+1 (833) 555-ÉLYSÉE',
-  whatsappRaw: '18335553597',
-  email: 'concierge@zorajewels.com',
+  name: 'J.P Jewellers',
+  tagline: 'Imperial Gold, Certified Diamonds & Heritage Jewelry',
+  phone: '+91 93285 91000',
+  phoneRaw: '919328591000',
+  whatsappNumber: '+91 93285 91000',
+  whatsappRaw: '919328591000',
+  email: 'contact@jpjewellers.com',
   rating: 4.9,
-  reviewsCount: 257,
-  address: '26 Place Vendôme, 75001 Paris, France',
+  reviewsCount: 384,
+  address: 'Ashapura Temple, Palace Rd, opp. Near, Prahlad Plot, Rajkot, Gujarat 360001',
+  city: 'Rajkot, Gujarat',
   salons: [
-    { city: 'Paris', location: '26 Place Vendôme, 75001 Paris' },
-    { city: 'New York', location: '740 Madison Avenue, New York, NY 10065' },
-    { city: 'Geneva', location: '42 Rue du Rhône, 1204 Geneva' },
-    { city: 'Virtual Salon', location: 'Confidential Global High-Definition Viewing' },
+    { city: 'Rajkot Flagship', location: 'Ashapura Temple, Palace Rd, opp. Near, Prahlad Plot, Rajkot, Gujarat 360001' },
+    { city: 'Palace Road Atelier', location: 'Palace Road, Near Ashapura Temple, Rajkot' },
+    { city: 'Gujarat Heritage Suite', location: 'Prahlad Plot, Rajkot, Gujarat 360001' },
+    { city: 'Virtual Salon', location: 'Private Video Consultation & Doorstep Gold Preview' },
   ],
 };
 
@@ -257,7 +258,7 @@ export const ALL_PRODUCTS: Product[] = [
       gemstone: 'Matched Muzo Emeralds & Flawless Diamonds',
       carat: '14.20 ct Total Weight across 3 pieces',
       dimensions: 'Custom tailored to client neck & ear anatomy',
-      origin: 'Bespoke Commission; Place Vendôme Salon',
+      origin: 'Bespoke Commission; Palace Road Rajkot Atelier',
     },
     isNew: true,
   },
@@ -324,10 +325,10 @@ export const INITIAL_REVIEWS: ClientReview[] = [
     author: 'Lady Victoria Montgomery',
     rating: 5,
     text:
-      'The Colombian emerald pendant took our breath away. The depth of color and delicate diamond pave work is unmatched anywhere on Place Vendôme. Truly legendary artistry.',
+      'The Colombian emerald pendant took our breath away. The depth of color and delicate diamond pave work from J.P Jewellers is unmatched anywhere in Gujarat. Truly legendary artistry.',
     date: 'March 14, 2026',
     category: 'Fine Jewelry',
-    location: 'London & Geneva',
+    location: 'Rajkot & Mumbai',
     verified: true,
   },
   {

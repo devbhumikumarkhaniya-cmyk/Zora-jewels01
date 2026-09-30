@@ -4,7 +4,7 @@ import { BUSINESS_INFO } from '../data/products';
 
 export const FloatingWhatsApp: React.FC = () => {
   const whatsappUrl = `https://wa.me/${BUSINESS_INFO.whatsappRaw}?text=${encodeURIComponent(
-    'Hello Zora Jewels! I would like to inquire about your fine jewelry and bespoke salon viewings.'
+    'Hello J.P Jewellers! I would like to inquire about your hallmark gold jewelry, certified diamonds and bridal collection.'
   )}`;
 
   return (
@@ -13,7 +13,7 @@ export const FloatingWhatsApp: React.FC = () => {
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Direct WhatsApp Consultation with Zora Jewels"
+        aria-label="Direct WhatsApp Consultation with J.P Jewellers"
         className="group relative flex items-center gap-2.5 bg-[#0B2A22] text-[#F5F1EA] pl-3 pr-4 py-3 rounded-full border border-[#25D366]/50 shadow-2xl hover:border-[#25D366] transition-all hover:scale-105"
       >
         {/* Pulse aura */}

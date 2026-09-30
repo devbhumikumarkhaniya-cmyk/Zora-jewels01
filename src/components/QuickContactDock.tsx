@@ -8,7 +8,7 @@ interface QuickContactDockProps {
 
 export const QuickContactDock: React.FC<QuickContactDockProps> = ({ onOpenBooking }) => {
   const whatsappUrl = `https://wa.me/${BUSINESS_INFO.whatsappRaw}?text=${encodeURIComponent(
-    'Hello Zora Jewels! I would like to inquire about fine jewelry creations and private salon viewing.'
+    'Hello J.P Jewellers! I would like to inquire about gold jewelry designs and salon viewing.'
   )}`;
 
   return (

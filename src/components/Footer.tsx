@@ -47,18 +47,18 @@ export const Footer: React.FC<FooterProps> = ({ onCategoryFilter, onClientServic
               <div className="flex items-center gap-3 mb-4">
                 <div className="relative w-8 h-8 rounded-full p-[1.5px] bg-gradient-to-tr from-[#D4AF37] via-[#F3E5AB] to-[#997929] overflow-hidden shrink-0 shadow-md">
                   <img
-                    src="/assets/images/zora_jewels_logo.png"
-                    alt="Zora Jewels Logo"
+                    src="/assets/images/jp_jewellers_logo.png"
+                    alt="J.P Jewellers Logo"
                     className="w-full h-full object-cover object-center"
                   />
                 </div>
                 <span className="font-cinzel tracking-[0.22em] text-lg font-bold text-[#F5F1EA] uppercase">
-                  Zora <span className="font-light text-[#D4AF37]">Jewels</span>
+                  J.P <span className="font-light text-[#D4AF37]">Jewellers</span>
                 </span>
               </div>
 
               <p className="text-xs text-[#F5F1EA]/65 font-light leading-relaxed max-w-sm mb-6">
-                Imperial Haute Joaillerie & Couture. Rare gemstones, certified D-flawless diamonds, and handcrafted heirloom treasures to transcend generations.
+                Rajkot's premier destination for hallmark gold jewelry, certified diamonds, and bespoke bridal heirloom treasures crafted with legendary precision.
               </p>
             </div>
 
@@ -66,28 +66,28 @@ export const Footer: React.FC<FooterProps> = ({ onCategoryFilter, onClientServic
             <div className="flex items-center gap-4 text-[#F5F1EA]/70">
               <a
                 href="#instagram"
-                aria-label="Follow Zora Jewels on Instagram"
+                aria-label="Follow J.P Jewellers on Instagram"
                 className="w-8 h-8 rounded-full border border-[#C9A96E]/30 flex items-center justify-center hover:text-[#C9A96E] hover:border-[#C9A96E] transition-colors"
               >
                 <Instagram className="w-4 h-4 stroke-[1.4]" />
               </a>
               <a
                 href="#facebook"
-                aria-label="Follow Zora Jewels on Facebook"
+                aria-label="Follow J.P Jewellers on Facebook"
                 className="w-8 h-8 rounded-full border border-[#C9A96E]/30 flex items-center justify-center hover:text-[#C9A96E] hover:border-[#C9A96E] transition-colors"
               >
                 <Facebook className="w-4 h-4 stroke-[1.4]" />
               </a>
               <a
                 href="#pinterest"
-                aria-label="Follow Zora Jewels on Pinterest"
+                aria-label="Follow J.P Jewellers on Pinterest"
                 className="w-8 h-8 rounded-full border border-[#C9A96E]/30 flex items-center justify-center hover:text-[#C9A96E] hover:border-[#C9A96E] transition-colors text-xs font-serif italic"
               >
                 P
               </a>
               <a
                 href="#youtube"
-                aria-label="Subscribe to Zora Jewels on YouTube"
+                aria-label="Subscribe to J.P Jewellers on YouTube"
                 className="w-8 h-8 rounded-full border border-[#C9A96E]/30 flex items-center justify-center hover:text-[#C9A96E] hover:border-[#C9A96E] transition-colors"
               >
                 <Youtube className="w-4 h-4 stroke-[1.4]" />
@@ -148,9 +148,9 @@ export const Footer: React.FC<FooterProps> = ({ onCategoryFilter, onClientServic
             <div className="flex items-start gap-3 text-xs text-[#F5F1EA]/80 font-light">
               <Phone className="w-4 h-4 text-[#C9A96E] mt-0.5 shrink-0" />
               <div>
-                <span className="block text-[10px] uppercase tracking-wider text-[#C9A96E]">Client Care</span>
-                <a href="tel:+18335553597" className="hover:text-[#C9A96E] transition-colors">
-                  +1 (833) 555-ÉLYSÉE
+                <span className="block text-[10px] uppercase tracking-wider text-[#C9A96E]">Direct Phone & WhatsApp</span>
+                <a href="tel:+919328591000" className="hover:text-[#C9A96E] transition-colors font-medium">
+                  +91 93285 91000
                 </a>
               </div>
             </div>
@@ -160,8 +160,8 @@ export const Footer: React.FC<FooterProps> = ({ onCategoryFilter, onClientServic
               <Mail className="w-4 h-4 text-[#C9A96E] mt-0.5 shrink-0" />
               <div>
                 <span className="block text-[10px] uppercase tracking-wider text-[#C9A96E]">Private Concierge</span>
-                <a href="mailto:concierge@maison-elysee.com" className="hover:text-[#C9A96E] transition-colors">
-                  concierge@maison-elysee.com
+                <a href="mailto:contact@jpjewellers.com" className="hover:text-[#C9A96E] transition-colors">
+                  contact@jpjewellers.com
                 </a>
               </div>
             </div>
@@ -170,8 +170,10 @@ export const Footer: React.FC<FooterProps> = ({ onCategoryFilter, onClientServic
             <div className="flex items-start gap-3 text-xs text-[#F5F1EA]/80 font-light">
               <MapPin className="w-4 h-4 text-[#C9A96E] mt-0.5 shrink-0" />
               <div>
-                <span className="block text-[10px] uppercase tracking-wider text-[#C9A96E]">Flagship Salons</span>
-                <span>Place Vendôme, Paris & Madison Ave, New York</span>
+                <span className="block text-[10px] uppercase tracking-wider text-[#C9A96E]">Showroom Address</span>
+                <span className="leading-snug block">
+                  Ashapura Temple, Palace Rd, opp. Near, Prahlad Plot, Rajkot, Gujarat 360001
+                </span>
               </div>
             </div>
           </div>
@@ -183,7 +185,7 @@ export const Footer: React.FC<FooterProps> = ({ onCategoryFilter, onClientServic
           
           {/* Copyright */}
           <div>
-            © 2026 Zora Jewels. All Rights Reserved.
+            © 2026 J.P Jewellers. All Rights Reserved.
           </div>
 
           {/* Legal Links */}
